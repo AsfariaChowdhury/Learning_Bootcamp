@@ -10,7 +10,7 @@
 	<meta charset = "UTF-8">
 	<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
 	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
-	<title>Bootstrap Tutorial 6</title>
+	<title>Home</title>
 	<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css">
 	<link rel = "stylesheet" type = "text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href = "https://fonts.googleapis.com/css?family=Pacifico" rel = "stylesheet" type = "text/css">
@@ -20,6 +20,8 @@
 	body{
 		font-size: 62.5%;
 		font-family: arial, sans-serif;
+		/* #ABD6DC #E6F2F4 #F3C4DF  */
+		background: #F7D0E6!important;
 	}
 
 	#nttLogo{
@@ -43,6 +45,12 @@
 		margin-bottom: 30px;
 		color: inherit;
 		background-color: #d5c4cf;
+	}
+	
+	.btn-primary{
+		border-color: #3B0B2E; 
+		background-color: #6A0888; 
+		color: #FFFF00;
 	}
 
 	</style>
@@ -70,8 +78,10 @@
 		<div class = "row">
 	
 		<!--Column 1-->
+		<!-- <div class = "clearfix visible"></div> -->
 		<div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12" style = "background-color: #E001">
-			<h1>Home</h1><h3>
+			<h1><a href = "#col1Content" data-toggle = "collapse">Home</a></h1>
+			<h3><div id = "col1Content" class = "collapse">
 				<p>Dear readers,</p>
 				<p>Welcome to "Enlightened News". Here, we bring you the best of journalism, and fearless reporting. Our journalists travel far
 				and wide, clicking pictures all around the world, capturing stories of pain, starvation, and suffering. Our main goal is to 
@@ -81,50 +91,96 @@
 				a millionaire, the ordinary village teacher that suddenly made changes, and much more. We share stories of scientific 
 				advancements, of vaccines, and of thorough reporting about the current pandemic with verifiable facts.</p>
 				<br></br>
-				<p>We hope you'll enjoy reading our articles. Please feel free to email us and give us constant feedback at:</h3>
-				<h5>enlightenednews@editor.com</h5></p>
-				<br></br><h3>
-				<p>Thank you.</p>
-				<p>Maryam Akter,</p>
-				<p>Editor</p></h3>
+				<p>We hope you'll enjoy reading our articles.</p>
+				<p>Thank you,</p>
+				<p>Maryam Akhter (Editor)</p>
+				</div></h3>
 		</div>
 		
 		<!--Column 2-->
+		<!-- <div class = "clearfix visible"></div> -->
 		<div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12" style = "background-color: #E002">
-			<h1>Local News</h1><h3>
+			<h1><a href = "#col2Content" data-toggle = "collapse">Local News</a></h1>
+			<h3><div id = "col2Content" class = "collapse">
 				Today's latest article:
-				<!--Insert code--></h3>
+				<a href = "file:///D:/NSU%20ACM-W/Learning_Bootcamp/Local_News.html" target = "_blank" rel = "noopener noreferrer">***</a>
+				<!--Insert code-->
+			</div></h3>
 		</div>
 		
 		<!--Column 3-->
+		<!-- <div class = "clearfix visible"></div> -->
 		<div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12" style = "background-color: #E001">
-			<h1>International News</h1><h3>
+			<h1><a href = "#col3Content" data-toggle = "collapse">International News</a></h1>
+			<h3><div id = "col3Content" class = "collapse">
 				Today's latest article:
-				<!--Insert code--></h3>
+				<a href = "file:///D:/NSU%20ACM-W/Learning_Bootcamp/International_News.html" target = "_blank" rel = "noopener noreferrer">***</a>
+				<!--Insert code--></div></h3>
 		</div>
 		
 		<!--Column 4-->
+		<!-- <div class = "clearfix visible"></div> -->
 		<div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12" style = "background-color: #E002">
-			<h1>Business</h1><h3>
+			<h1><a href = "#col4Content" data-toggle = "collapse">Business</a></h1>
+			<h3><div id = "col4Content" class = "collapse">
 				Today's latest article:
-				<!--Insert code--></h3>
+				<a href = "file:///D:/NSU%20ACM-W/Learning_Bootcamp/Business.html" target = "_blank" rel = "noopener noreferrer">***</a>
+				<!--Insert code--></div></h3>
 		</div>
-		
+		</div>
+		<div class = "row">
 		<!--Column 5-->
+		<!-- <div class = "clearfix visible"></div> -->
 		<div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12" style = "background-color: #E002">
-			<h1>Science</h1><h3>
+			<h1><a href = "#col5Content" data-toggle = "collapse">Science</a></h1>
+			<h3><div id = "col5Content" class = "collapse">
 				Today's latest article:
-				<!--Insert code--></h3>
+				<a href = "file:///D:/NSU%20ACM-W/Learning_Bootcamp/Science.html" target = "_blank" rel = "noopener noreferrer">***</a>
+				<!--Insert code--></div></h3>
 		</div>
 		
 		<!--Column 6-->
+		<!-- <div class = "clearfix visible"></div> -->
 		<div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12" style = "background-color: #E001">
-			<h1>Contact Us</h1><h3>
-				Email: </h3><h5>enlightenednews@contact.com</h5><h3> 
+			<h1><a href = "#col6Content" data-toggle = "collapse">Contact Us</a></h1>
+			<h3><div id = "col6Content" class = "collapse">
+				Email: enlightenednews@gmail 
 				WhatsApp: +8801919751978
-				<!--Insert code--></h3>
+				</div></h3>
 		</div>
-	</div>
+		
+		<!--Column 7-->
+		<!-- <div class = "clearfix visible"></div> -->
+		<div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12" style = "background-color: #E002">
+			<h1><a href = "#col7Content" data-toggle = "collapse">Donate</a></h1>
+			<h3><div id = "col7Content" class = "collapse">
+				<p>We are an independent news organization and we are advertisement-free.
+				Hence, it would help us if you donate to our platform so that we can
+				continue producing high quality content.</p>
+				<p>
+					<button type = "button" class = "btn btn-primary btn-lg">
+						<span class = "glyphicon glyphicon-usd" aria-hidden = "true"></span>
+							DONATE NOW
+					</button>
+				</p>
+				</div></h3>
+		</div>
+		
+		<!--Column 8-->
+		<!-- <div class = "clearfix visible"></div> -->
+		<div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12" style = "background-color: #E001">
+			<h1><a href = "#col8Content" data-toggle = "collapse">Volunteer</a></h1>
+			<h3><div id = "col8Content" class = "collapse">
+				<p>Bring us amazing stories of your home country!</p>
+				<p>
+					<button type = "button" class = "btn btn-primary btn-lg">
+						<span class = "glyphicon glyphicon-pencil" aria-hidden = "true"></span>
+							Write for us.
+					</button>
+				</p>
+				</div></h3>
+		</div>
+		</div>
 
 </div>
 
